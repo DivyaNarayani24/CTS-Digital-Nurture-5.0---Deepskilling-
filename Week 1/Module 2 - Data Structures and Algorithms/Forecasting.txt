@@ -1,0 +1,13 @@
+Recursion is when a method calls itself to break a problem into smaller sub-problems,
+until it reaches a base case that can be answered directly without further calls.
+
+In this problem, recursion simplifies the future value calculation because growing money for n years is really just
+"grow it for (n-1) years, then apply one more year of growth" - a natural recursive structure.
+
+Time complexity: this recursive algorithm makes one call per year, so for 'years' = n, 
+                it makes O(n) calls total - linear in the number of years.
+
+Optimization: since each value is only computed once anyway in this particular version (no repeated overlapping subproblems),
+            the main risk with recursion here is stack overflow if 'years' is very large,
+            because each call stays on the call stack until the base case returns.
+            For very large n, an iterative version avoids stacking calls and is more memory-efficient, while producing the same result.

@@ -1,0 +1,15 @@
+Big O notation describes how the performance of an algorithm grows as the input size (n) increases. 
+It helps compare algorithms independent of hardware or specific data.
+
+Linear Search:
+- Best case: O(1) — target is the very first element
+- Worst case: O(n) — target is last, or not present, so all n elements get checked
+
+Binary Search:
+- Best case: O(1) — target is exactly the middle element
+- Worst case: O(log n) — search space keeps halving until 1 element remains
+
+Comparison: Linear search is O(n), binary search is O(log n), because each step in binary search eliminates half of the remaining elements, while linear search only eliminates one per step.
+
+For an e-commerce platform: binary search is more suitable when the product catalog is sorted, because lookups stay fast even as the catalog grows.
+Linear search is acceptable for small datasets where sorting overhead isn't worth it.
