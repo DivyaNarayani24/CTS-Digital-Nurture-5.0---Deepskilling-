@@ -64,5 +64,6 @@ Angular (v20.0) Student Course Portal built across 7 hands-on exercises:
 - Hands-On 5 - Reactive Forms
 - Hands-On 6 - Services & Dependency Injection
 - Hands-On 7 - Routing, Guards & Lazy Loading
+  
 Code: `student-course-portal` folder
 Output (screenshots): see Word docs in Week 5 folder
