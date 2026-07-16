@@ -52,3 +52,17 @@ Creating and configuring microservices with Eureka Discovery and Spring Cloud Ga
   
 Code: `account`, `loan`, `eureka-discovery-server`, `greet-service`, `api-gateway`
 Output (screenshots): see PDF in Week 4 folder
+
+## Week 5 Angular 
+
+### Part 1
+Angular (v20.0) Student Course Portal built across 7 hands-on exercises:
+- Hands-On 1 - Environment Setup, Project Structure & First Component
+- Hands-On 2 - Data Binding, Lifecycle Hooks & Component Communication
+- Hands-On 3 - Directives & Pipes
+- Hands-On 4 - Template-Driven Forms & Validation
+- Hands-On 5 - Reactive Forms
+- Hands-On 6 - Services & Dependency Injection
+- Hands-On 7 - Routing, Guards & Lazy Loading
+Code: `student-course-portal` folder
+Output (screenshots): see Word docs in Week 5 folder
