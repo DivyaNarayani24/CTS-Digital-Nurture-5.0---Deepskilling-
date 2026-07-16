@@ -1,0 +1,16 @@
+.error {
+  color: red;
+  font-size: 12px;
+  display: block;
+}
+.success {
+  color: green;
+  margin-top: 10px;
+  font-weight: bold;
+}
+input.ng-invalid.ng-touched {
+  border-color: red;
+}
+input.ng-valid.ng-touched {
+  border-color: green;
+}

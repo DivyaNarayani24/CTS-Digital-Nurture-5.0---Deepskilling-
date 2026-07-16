@@ -1,0 +1,9 @@
+angular.json — CLI workspace configuration (build/serve/test settings per project)
+tsconfig.json — base TypeScript compiler settings for the whole workspace
+tsconfig.app.json — TypeScript settings specific to building the app
+package.json — project dependencies and npm scripts
+src/main.ts — application entry point, bootstraps the root component
+src/app/app.config.ts — standalone app configuration (providers, routing, etc. — Angular 20 uses this instead of app.module.ts)
+src/app/app.component.ts — the root component
+src/index.html — the single HTML page the SPA loads into
+angular.json budgets — maximumWarning/maximumError set size limits; the "initial" budget covers total JS bundle size (warns 500kB, fails 1MB), and "anyComponentStyle" covers each component's CSS size (warns 4kB, fails 8kB) — CLI warns above maximumWarning and fails the build above maximumError

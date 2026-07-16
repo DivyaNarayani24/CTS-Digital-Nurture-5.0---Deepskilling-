@@ -1,0 +1,11 @@
+<div class="notification-box">
+  <h4>Notifications</h4>
+
+  <input [(ngModel)]="newMessage" placeholder="Type a message" (keyup.enter)="addMessage()">
+  <button (click)="addMessage()">Add</button>
+  <button (click)="clearMessages()">Clear</button>
+
+  <ul>
+    <li *ngFor="let msg of messages">{{ msg }}</li>
+  </ul>
+</div>
