@@ -40,3 +40,15 @@ Spring Boot project (`learnSpring`) covering:
 
 Code: `src` folder and `pom.xml`
 Output (screenshots): console logs and Postman/browser responses for each exercise
+
+## Week 4 - Microservices
+
+Creating and configuring microservices with Eureka Discovery and Spring Cloud Gateway:
+- Account Microservice - GET /accounts/{number}
+- Loan Microservice - GET /loans/{number}
+- Eureka Discovery Server - registered Account & Loan services
+- Spring Cloud API Gateway - routed via `greet-service`
+- Global Filter - logs incoming requests
+  
+Code: `account`, `loan`, `eureka-discovery-server`, `greet-service`, `api-gateway`
+Output (screenshots): see PDF in Week 4 folder
