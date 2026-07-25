@@ -1,0 +1,7 @@
+<app-header></app-header>
+
+<div *ngIf="isLoading$ | async" class="global-spinner">
+  Loading...
+</div>
+
+<router-outlet></router-outlet>

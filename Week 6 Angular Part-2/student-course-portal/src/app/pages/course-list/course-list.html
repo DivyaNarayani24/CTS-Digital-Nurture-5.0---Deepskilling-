@@ -1,0 +1,35 @@
+<h2>Course Listing</h2>
+
+<input
+  type="text"
+  [(ngModel)]="searchTerm"
+  (ngModelChange)="onSearch()"
+  placeholder="Search courses..."
+/>
+
+<p *ngIf="isLoading">Loading courses...</p>
+
+<p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
+
+<div *ngIf="!isLoading && !errorMessage">
+  <ng-container *ngIf="filteredCourses.length > 0; else noCourses">
+    <app-course-card
+  *ngFor="let course of filteredCourses; let i = index; trackBy: trackByCourseId"
+  [course]="course">
+</app-course-card>
+  </ng-container>
+
+  <ng-template #noCourses>
+    <p>No courses available.</p>
+  </ng-template>
+
+  <app-course-summary-widget>
+
+  </app-course-summary-widget>
+
+  <h3>Notification Widget A</h3>
+  <app-notification></app-notification>
+
+  <h3>Notification Widget B</h3>
+  <app-notification></app-notification>
+</div>
