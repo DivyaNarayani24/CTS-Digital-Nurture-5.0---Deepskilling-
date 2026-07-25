@@ -67,3 +67,13 @@ Angular (v20.0) Student Course Portal built across 7 hands-on exercises:
   
 Code: `student-course-portal` folder
 Output (screenshots): see Word docs in Week 5 folder
+
+## Week 6 Angular
+### Part 2
+Continuation of the same Student Course Portal project (Angular v20.0), covering HTTP integration, state management, and testing:
+- Hands-On 8 - HTTP Client, Interceptors & Error Handling (auth, loading, and error-handler interceptors; RxJS operators - map, catchError, tap, retry, switchMap)
+- Hands-On 9 - State Management with NgRx (actions, reducers, selectors, effects for courses and enrollments; Redux DevTools integration)
+- Hands-On 10 - Unit Testing with Jasmine & Karma (component tests with TestBed, service tests with HttpClientTestingModule, NgRx-connected component tests with MockStore)
+
+Code: `student-course-portal` folder
+Output (screenshots): see Week 6 folder
