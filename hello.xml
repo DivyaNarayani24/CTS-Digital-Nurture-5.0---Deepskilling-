@@ -1,2 +1,4 @@
 <message>Hello from master branch</message>
 <info>This content was added directly on master</info>
+<message>Hello from GitWork branch</message>
+<update>This is an updated line in GitWork</update>
