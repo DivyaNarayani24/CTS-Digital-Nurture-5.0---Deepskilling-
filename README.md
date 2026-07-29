@@ -77,3 +77,13 @@ Continuation of the same Student Course Portal project (Angular v20.0), covering
 
 Code: `student-course-portal` folder
 Output (screenshots): see Week 6 folder
+
+## Week 7 Git Practices
+Git version control hands-on exercises using Git Bash, GitHub, and P4Merge:
+- Hands-On 1 - Git Basics: initializing tracking, first commit (`welcome.txt`)
+- Hands-On 2 - `.gitignore` configuration and tracking exclusions
+- Hands-On 3 - Branching & Merging with P4Merge: created branches, merged changes, visualized differences
+- Hands-On 4 (Git-T03-HOL_001) - Conflict Resolution: created `GitWork` branch, modified `hello.xml` independently on `main` and `GitWork`, merged to produce an add/add conflict, resolved it using the P4Merge 3-way merge tool, added backup files (`*.orig`) to `.gitignore`, deleted the merged branch
+- Hands-On 5 (Git-T03-HOL_002) - Remote Sync & Cleanup: verified clean working state, pulled latest changes from remote, pushed local commits back to the GitHub repository
+
+Output (screenshots): see Git Hands On 1-4 folders in Week 7 folder; terminal screenshots for Hands-On 4 & 5 conflict resolution and push/pull
